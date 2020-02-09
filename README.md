@@ -1,2 +1,2 @@
 # Indoor-Maps
-Upload materials related to our project here
+An overview of a project on Indoor Maps in the context of Nepal
