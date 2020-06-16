@@ -1,2 +1,2 @@
 # Indoor-Maps
-An overview of a project on Indoor Maps in the context of Nepal
+An android app created to view the interior map of a certain building or infrastructure.
