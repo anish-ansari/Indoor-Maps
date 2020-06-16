@@ -1,0 +1,115 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--<include
+        layout="@layout/ground"
+        android:id="ground">
+
+    </include>-->
+
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <EditText
+            android:id="@+id/SearchBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type here to search"
+            android:orientation="horizontal">
+
+        </EditText>
+
+        <!--<br.com.mauker.materialsearchview.MaterialSearchView
+            android:id="@+id/msv"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>-->
+        <!--<SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:queryHint="Type here to search"
+            android:paddingRight="20dp"
+            android:id="@+id/search" >
+        </SearchView>-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+
+
+            <Button
+                android:id="@+id/btnG"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:text="@string/ground">
+
+            </Button>
+
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:text="@string/one">
+
+            </Button>
+
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:text="@string/two">
+
+            </Button>
+
+
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:text="@string/three">
+
+            </Button>
+
+            <Button
+                android:id="@+id/search"
+                android:layout_marginLeft="45dp"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:text="Search">
+
+            </Button>
+
+
+
+
+
+
+        </LinearLayout>
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/photo_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
